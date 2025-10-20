@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP - pesquisaCEP</title>
+</head>
+<body>
+    <h1>Pesquisa CEP</h1>
+    <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+        onblur="pesquisacep(this.value);"></label><br>
+        <label>Rua: 
+            <input name="rua" type="text" id="rua" size="60">
+        </label><br>
+        <label>Bairro: 
+            <input name="bairro" type="text" id="bairro" size="50">
+        </label><br>
+        <label>Cidade: 
+            <input name="cidade" type="text" id="cidade" size="50">
+        </label><br>
+         <label>Estado: 
+            <input name="estado" type="text" id="uf" size="2">
+        </label><br>
+        <label>Região: 
+            <input name="regiao"type="text" id="regiao" size="50">
+        </label><br>
+        <label>IBGE:
+            <input name="ibge"type="number" id="ibge" size="7">
+        </label><br>
+        <label>gia: 
+            <input name="gia "type="number" id="gia" size="4">
+        </label><br>
+        <label>DDD:
+            <input name="ddd" type="number" id="ddd" size="2">
+        </label><br>
+        <label>siafi: 
+            <input name="siafi" type="number" id="siafi" size="4">
+        </label>
+        <script src="js/cep.js"></script>
+</body>
+</html>
